@@ -1,0 +1,25 @@
+.WebComera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .cnop {
+    font-size: 30px;
+    background: transparent;
+    border: none;
+  }
+  .Photo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    .delete {
+      font-size: 26px;
+    //   background: transparent;
+      border: none;
+      color: red;
+    //   margin-left: -40px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  @media (max-width: 500px) {
+    cursor: default;
+  }
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
